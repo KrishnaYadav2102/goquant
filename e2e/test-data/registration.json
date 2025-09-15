@@ -1,0 +1,10 @@
+[
+  { "name": "Username exists", "username": "ky", "firstname": "FirstName", "lastname": "LastName", "password": "Password@123", "confirmPassword": "Password@123", "message": "User already exists" },
+  { "name": "Password length < 6", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "1", "confirmPassword": "1", "message": "minimum field size of 6, SignUpInput.Password" },
+  { "name": "Password Policy: less than 8", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "1234567", "confirmPassword": "1234567", "message": "Password did not conform with policy: Password not long enough" },
+  { "name": "Password Policy: Must have lowercase", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "12345678", "confirmPassword": "12345678", "message": "Password did not conform with policy: Password must have lowercase characters" },
+  { "name": "Password Policy: Must have uppercase", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "1234567a", "confirmPassword": "1234567a", "message": "Password did not conform with policy: Password must have uppercase characters" },
+  { "name": "Password Policy: Must have symbol", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "1234567aB", "confirmPassword": "1234567aB", "message": "Password did not conform with policy: Password must have symbol characters" },
+  { "name": "Password Policy: Must have numeric", "username": "ky_123", "firstname": "FirstName", "lastname": "LastName", "password": "Abcdefgh@", "confirmPassword": "Abcdefgh@", "message": "Password did not conform with policy: Password must have numeric characters" },
+  { "name": "Username with leading & trailing spaces", "username": "  ky_123  ", "firstname": "FirstName", "lastname": "LastName", "password": "Abcdefgh@1", "confirmPassword": "Abcdefgh@1", "message": "Value at 'username' failed to satisfy constraint: Member must satisfy regular expression pattern: [\\p{L}\\p{M}\\p{S}\\p{N}\\p{P}]+" }
+]
