@@ -32,8 +32,9 @@ goquant
 │   │── eslint.config.js      # ESLint configuration (ESLint 9 flat config)
 │   │── package.json
 │   │── playwright.config.ts  # Playwright configuration
-│   │── tsconfig.json         # TypeScript configuration
-│── README.md
+│   └── tsconfig.json         # TypeScript configuration
+│
+└── README.md
 ```
 ---
 ## 🛠 Prerequisites
