@@ -28,7 +28,6 @@ goquant
 │   │   ├── constants.ts
 │   │   └── helpers.ts
 │   │
-│   │── playwright.config.ts  # Playwright configuration
 │   │── eslint.config.js      # ESLint configuration (ESLint 9 flat config)
 │   │── package.json
 │   │── playwright.config.ts  # Playwright configuration
