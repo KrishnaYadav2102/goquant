@@ -1,3 +1,11 @@
+---
+name: "🐞 Bug Report"
+about: "Report a bug found during QA testing"
+title: "[Bug]: "
+labels: ["bug"]
+assignees: ""
+---
+
 ### 🐞 Bug Title
 > [Category][Device] Short clear summary of the issue  
 > Example: [UI][iPhone SE] “Buy” button overlaps footer on trade screen
